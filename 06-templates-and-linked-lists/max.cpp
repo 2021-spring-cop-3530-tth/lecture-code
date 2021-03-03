@@ -3,7 +3,7 @@
 
 // Max
 template <typename T>
-T Max (T a[], T size)
+T Max (T a[], int size)
 {
 	// error checking size should be > 0
 	T maxSoFar = a[0];
